@@ -30,7 +30,7 @@ export default function SessaoSeguranca() {
       {/* Imagem à esquerda */}
       <div className="w-full md:w-1/2">
         <img
-          src="../../src/assets/seguranca.jpeg"
+          src="../../src/assets/seguranca.png"
           alt="Segurança"
           className="w-full h-auto rounded shadow"
         />
