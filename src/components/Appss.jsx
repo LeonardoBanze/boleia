@@ -1,5 +1,5 @@
 import { useState } from "react";
-import {appImg} from "../../src/assets/app.png";
+import appImg from "../../src/assets/app.png";
 
 const apps = [
   {
