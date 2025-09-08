@@ -1,4 +1,5 @@
 import { useState } from "react";
+import menbroImg from "../../src/assets/membro.png"
 
 const membros = [
   {
@@ -86,7 +87,7 @@ export default function SejaMembro() {
             {/* Imagem do círculo de membros */}
             <div className="w-full max-w-md mx-auto mb-8">
               <img 
-                src="../../src/assets/membro.png" 
+                src={menbroImg} 
                 alt="Círculo de membros" 
                 className="w-full h-auto"
               />

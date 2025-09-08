@@ -1,4 +1,5 @@
 import { CheckCircle } from 'react-feather';
+import segurancaImg from '../../src/assets/seguranca.png'
 
 
 const seguranca = [
@@ -30,7 +31,7 @@ export default function SessaoSeguranca() {
       {/* Imagem à esquerda */}
       <div className="w-full md:w-1/2">
         <img
-          src="../../src/assets/seguranca.png"
+          src={segurancaImg}
           alt="Segurança"
           className="w-full h-auto rounded shadow"
         />

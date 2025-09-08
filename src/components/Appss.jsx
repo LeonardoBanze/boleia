@@ -1,11 +1,12 @@
 import { useState } from "react";
+import {appImg} from "../../src/assets/app.png";
 
 const apps = [
   {
     nome: "YORA",
     descricao:
       "You can now use Lottie widget with a custom count loop. Turn your boring static elements into beautiful animated elements with few clicks.",
-    imagem: "../../src/assets/app.png", // Usando sua imagem dos assets
+    imagem: {appImg}, // Usando sua imagem dos assets
     playstore: "#",
     applestore: "#",
   },
