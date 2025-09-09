@@ -1,87 +1,95 @@
-import React from 'react';
-import { ArrowRight } from 'lucide-react';
+import { Facebook, Linkedin, Twitter } from 'react-feather';
 
-const SolutionCard = ({ imageSrc, title, description, imageAlt }) => {
+export default function Footer() {
   return (
-    <div className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 group border border-gray-100">
-      <div className="relative h-64 overflow-hidden">
-        <img 
-          src={imageSrc} 
-          alt={imageAlt}
-          className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-        />
-        <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
-      </div>
-      
-      <div className="p-8">
-        <h3 className="text-[#640000] text-xl font-bold mb-4">
-          {title}
-        </h3>
-        
-        <p className="text-gray-600 text-base leading-relaxed mb-6">
-          {description}
-        </p>
-        
-        <button className="flex items-center text-[#640000] font-medium hover:text-[#800000] transition-colors duration-200 group">
-          Learn More 
-          <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform duration-200" />
-        </button>
-      </div>
-    </div>
-  );
-};
+    <footer className="bg-white border-t border-gray-200 pt-10">
 
-const OurSolutionsSection = () => {
-  const solutions = [
-    {
-      imageSrc: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
-      imageAlt: "Motorcycle rider at night with city lights",
-      title: "Ride Services",
-      description: "From quick city rides to long-distance travel, we connect you with reliable drivers."
-    },
-    {
-      imageSrc: "https://images.unsplash.com/photo-1473968512647-3e447244af8f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
-      imageAlt: "Drone delivery service in urban setting",
-      title: "Delivery Solutions",
-      description: "Fast, secure delivery for everything from documents to groceries."
-    },
-    {
-      imageSrc: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80",
-      imageAlt: "People socializing in community setting with lights",
-      title: "Community Hub",
-      description: "Join a vibrant community of users sharing experiences and opportunities."
-    }
-  ];
+      <div className="container mx-auto px-6 md:px-12 grid grid-cols-1 md:grid-cols-6 gap-8">
+        {/* Coluna 1-2: Logo e descrição */}
+        <div className="md:col-span-2">
+          {/* <img src="../../src/assets/logo.png" alt="BoleiaChain Logo" className="h-10 mb-4" /> */}
 
-  return (
-    <div className="bg-gray-50 py-20 px-4">
-      <div className="max-w-7xl mx-auto">
-        {/* Header */}
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-black mb-8">
-            Our Solutions
-          </h2>
-          <p className="text-gray-600 text-lg md:text-xl max-w-4xl mx-auto leading-relaxed">
-            From ride-sharing to delivery, from community building to business solutions - discover 
-            how BoleiaChain is transforming urban mobility across Africa.
+          <a href="/" className="flex items-center">
+              <div className="w-8 h-8 bg-[#640000] rounded-sm flex items-center justify-center">
+                <span className="text-white font-bold text-sm">B</span>
+              </div>
+              <span className="ml-3 text-xl font-bold text-gray-800">BOLEIACHAIN</span>
+            </a>
+          <p className="text-gray-600 mb-4">
+            Empowering urban mobility across Africa with innovative ride-sharing and delivery solutions. Building sustainable communities through technology and African innovation.
           </p>
+          <div className="flex space-x-3">
+            <a
+              href="#"
+              className="border border-gray-300 rounded p-2 hover:bg-[#640000] hover:text-white transition flex items-center justify-center"
+              aria-label="Facebook"
+            >
+              <Facebook size={16} />
+            </a>
+            
+            <a
+              href="#"
+              className="border border-gray-300 rounded p-2 hover:bg-[#640000] hover:text-white transition flex items-center justify-center"
+              aria-label="LinkedIn"
+            >
+              <Linkedin size={16} />
+            </a>
+            <a
+              href="#"
+              className="border border-gray-300 rounded p-2 hover:bg-[#640000] hover:text-white transition flex items-center justify-center"
+              aria-label="Twitter"
+            >
+              <Twitter size={16} />
+            </a>
+          </div>
         </div>
 
-        {/* Solutions Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {solutions.map((solution, index) => (
-            <SolutionCard
-              key={index}
-              imageSrc={solution.imageSrc}
-              imageAlt={solution.imageAlt}
-              title={solution.title}
-              description={solution.description}
-            />
-          ))}
+        {/* Colunas de links */}
+        <div>
+          <h3 className="font-bold text-[#640000] mb-4">Company</h3>
+          <ul className="space-y-2 text-gray-600">
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 className="font-bold text-[#640000] mb-4">Features</h3>
+          <ul className="space-y-2 text-gray-600">
+            <li><a href="#">Copyright Notice</a></li>
+            <li><a href="#">Mailing List</a></li>
+            <li><a href="#">Social Media Links</a></li>
+            <li><a href="#">Help Center</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 className="font-bold text-[#640000] mb-4">Products</h3>
+          <ul className="space-y-2 text-gray-600">
+            <li><a href="#">Sitemap</a></li>
+            <li><a href="#">New Releases</a></li>
+            <li><a href="#">Best Sellers</a></li>
+            <li><a href="#">Newsletter</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 className="font-bold text-[#640000] mb-4">Help</h3>
+          <ul className="space-y-2 text-gray-600">
+            <li><a href="#">Copyright</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Mailing List</a></li>
+          </ul>
         </div>
       </div>
-    </div>
-  );
-};
 
-export default OurSolutionsSection;
+      {/* Rodapé inferior */}
+      <div className="text-center py-6 border-t border-gray-200 mt-10 text-sm text-gray-600">
+        © 2024 <span className="font-bold text-[#640000]">BoleiaChain</span>
+      </div>
+    </footer>
+  );
+}

@@ -56,7 +56,7 @@ const StatCard = ({ value, label, delay = 0 }) => {
       <div className="text-5xl font-bold text-[#640000] mb-3">
         {isVisible ? formatNumber(count) : '0'}{getSuffix()}
       </div>
-      <div className="text-gray-300 text-lg font-medium">
+      <div className="text-gray-800 text-lg font-medium">
         {label}
       </div>
     </div>
