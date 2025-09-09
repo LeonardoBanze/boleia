@@ -3,6 +3,7 @@ import ImpactNumbersSection from "../../components/ImpactNumbersSection";
 import Navbar from "../../components/Navbar";
 import OurJourneySection from "../../components/OurJourneySection";
 import Topbar from "../../components/Topbar";
+import bannerImg from "../../assets/entrega.png"
 import { Heart, Zap, Globe, Award, Target, Eye, Lightbulb } from 'lucide-react';
 
 export default function SobreNos() {
@@ -95,7 +96,7 @@ const values = [
         {/* Banner */}
         <div className="relative h-64 md:h-80 w-full">
           <img
-            src="../../src/assets/entrega.png"
+            src={bannerImg}
             alt="Banner Sobre Nós"
             className="w-full h-full object-cover"
           />
