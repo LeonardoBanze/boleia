@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 
 import viagemImg from "../../src/assets/viagem.jpeg";
 import entregaImg from "../../src/assets/entrega.png";
-import parkkImg from "../../src/assets/parkk.png";
+import parkkImg from "../../src/assets/Parkk.png";
 import pickImg from "../../src/assets/pick.png";
 import recargaImg from "../../src/assets/recarga.jpg";
 import viaImg from "../../src/assets/via.png";

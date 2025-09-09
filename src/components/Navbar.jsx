@@ -21,25 +21,34 @@ export default function Navbar() {
           {/* Menu de navegação */}
           <div className="hidden lg:flex items-center space-x-8">
             <a href="/" className="text-[#640000] font-medium hover:text-[#520000] transition-colors duration-200">
-              INÍCIO
+              Home
             </a>
             <a href="/about" className="text-gray-700 hover:text-[#640000] transition-colors duration-200">
-              SOBRE - NÓS
+              About
             </a>
             <a href="/service" className="text-gray-700 hover:text-[#640000] transition-colors duration-200">
-              SERVIÇOS
+              Solutions
             </a>
             <a href="#security" className="text-gray-700 hover:text-[#640000] transition-colors duration-200">
-              SEGURANÇA
+              Community
+            </a>
+            <a href="#security" className="text-gray-700 hover:text-[#640000] transition-colors duration-200">
+              Safety
             </a>
             <a href="#apps" className="text-gray-700 hover:text-[#640000] transition-colors duration-200">
-              APP'S
+              Sustainability
             </a>
             <a href="/blog" className="text-gray-700 hover:text-[#640000] transition-colors duration-200">
-              BLOG
+              Value Proposition
             </a>
             <a href="/contact" className="text-gray-700 hover:text-[#640000] transition-colors duration-200">
-              CONTACTOS
+              Ride Phases
+            </a>
+            <a href="/contact" className="text-gray-700 hover:text-[#640000] transition-colors duration-200">
+              Token
+            </a>
+            <a href="/contact" className="text-gray-700 hover:text-[#640000] transition-colors duration-200">
+              Pricing
             </a>
           </div>
 
