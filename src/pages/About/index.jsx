@@ -101,7 +101,11 @@ const values = [
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0  bg-opacity-50 flex items-center justify-center">
-            <h1 className="text-white text-4xl md:text-5xl font-bold">About BoleiaChain</h1>
+            
+            
+            <h1 className="text-4xl md:text-5xl font-bold text-[#640000] mb-6">
+            About <span className="text-gray-900">BoleiaChain</span>
+          </h1>
           </div>
         </div>
 
@@ -109,9 +113,10 @@ const values = [
       <div className="max-w-7xl mx-auto">
         {/* Header Section */}
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-black mb-8">
-            About BoleiaChain
-          </h2>
+          
+           <h1 className="text-4xl md:text-5xl font-bold text-[#640000] mb-6">
+            About <span className="text-gray-900">BoleiaChain</span>
+          </h1>
           <p className="text-gray-600 text-lg md:text-xl max-w-4xl mx-auto leading-relaxed">
             We're more than just a mobility platform. We're a movement dedicated to transforming how people move, connect, and thrive in African cities. Built by Africans, for Africa.
           </p>
@@ -205,9 +210,10 @@ const values = [
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-black mb-8">
-            Our Values
-          </h2>
+          
+            <h1 className="text-4xl md:text-5xl font-bold text-[#640000] mb-6">
+            Our <span className="text-gray-900">Values</span>
+          </h1>
           <p className="text-gray-600 text-lg md:text-xl max-w-3xl mx-auto leading-relaxed">
             These core values guide every decision we make and every solution we build.
           </p>

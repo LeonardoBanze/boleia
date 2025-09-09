@@ -1,5 +1,6 @@
 import Footer from "../../components/footer";
 import Navbar from "../../components/Navbar";
+import OurSolutionsSectionPage from "../../components/OurSolutionsSectionpage";
 import Topbar from "../../components/Topbar";
 
 export default function ServicosPage() {
@@ -22,16 +23,16 @@ export default function ServicosPage() {
         </div>
   
         {/* Introdução */}
-        <div className="max-w-6xl mx-auto px-4 py-12 text-center">
+        {/* <div className="max-w-6xl mx-auto px-4 py-12 text-center">
           <h2 className="text-2xl md:text-3xl font-semibold mb-4">O que oferecemos</h2>
           <p className="text-gray-600 leading-relaxed">
             Oferecemos uma gama completa de serviços para ajudar o seu negócio a crescer,
             com foco em qualidade, inovação e resultados reais.
           </p>
-        </div>
+        </div> */}
   
         {/* Cards de Serviços */}
-        <div className="max-w-6xl mx-auto px-4 py-12 grid md:grid-cols-3 gap-8">
+        {/* <div className="max-w-6xl mx-auto px-4 py-12 grid md:grid-cols-3 gap-8">
           <div className="bg-white shadow-lg rounded-lg p-6 text-center hover:shadow-xl transition">
             <div className="text-blue-600 text-5xl mb-4">💻</div>
             <h3 className="text-lg font-semibold mb-2">Desenvolvimento Web</h3>
@@ -80,7 +81,10 @@ export default function ServicosPage() {
               Soluções inteligentes para aumentar a produtividade da sua empresa.
             </p>
           </div>
-        </div>
+        </div> */}
+
+
+        <OurSolutionsSectionPage/>
   
       </section>
 

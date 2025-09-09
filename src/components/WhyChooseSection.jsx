@@ -48,9 +48,10 @@ const WhyChooseSection = () => {
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-black mb-8">
-            Why Choose BoleiaChain?
-          </h2>
+         
+            <h1 className="text-4xl md:text-5xl font-bold text-[#640000] mb-6">
+            Why Choose  <span className="text-gray-900">BoleiaChain?</span>
+          </h1>
           <p className="text-gray-600 text-lg md:text-xl max-w-4xl mx-auto leading-relaxed">
             Built by Africans, for Africa. Our platform combines cutting-edge technology with deep 
             cultural understanding to create mobility solutions that truly work for our communities.

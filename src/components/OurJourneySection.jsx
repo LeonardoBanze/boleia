@@ -68,9 +68,10 @@ const OurJourneySection = () => {
       <div className="max-w-5xl mx-auto">
         {/* Header */}
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-black mb-8">
-            Our Journey
-          </h2>
+          
+          <h1 className="text-4xl md:text-5xl font-bold text-[#640000] mb-6">
+            Our <span className="text-gray-900">Journey</span>
+          </h1>
           <p className="text-gray-600 text-lg md:text-xl max-w-3xl mx-auto leading-relaxed">
             From a simple idea to a continent-wide movement, here's how we've grown to serve 
             millions across Africa.

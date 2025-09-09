@@ -111,9 +111,10 @@ const ImpactNumbersSection = () => {
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-black mb-8">
-            Our Impact in Numbers
-          </h2>
+          
+           <h1 className="text-4xl md:text-5xl font-bold text-[#640000] mb-6">
+            Our <span className="text-gray-900">Impact in Numbers</span>
+          </h1>
           <p className="text-gray-600 text-lg md:text-xl max-w-4xl mx-auto leading-relaxed">
             Real numbers that represent real lives improved, communities connected, and 
             opportunities created across Africa.

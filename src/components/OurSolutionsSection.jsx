@@ -58,9 +58,10 @@ const OurSolutionsSection = () => {
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-black mb-8">
-            Our Solutions
-          </h2>
+          
+            <h1 className="text-4xl md:text-5xl font-bold text-[#640000] mb-6">
+            Our <span className="text-gray-900">Solutions</span>
+          </h1>
           <p className="text-gray-600 text-lg md:text-xl max-w-4xl mx-auto leading-relaxed">
             From ride-sharing to delivery, from community building to business solutions - discover 
             how BoleiaChain is transforming urban mobility across Africa.
