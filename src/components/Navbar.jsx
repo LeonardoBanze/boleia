@@ -32,7 +32,7 @@ export default function Navbar() {
             <a href="#security" className="text-gray-700 hover:text-[#640000] transition-colors duration-200">
               Community
             </a>
-            <a href="#security" className="text-gray-700 hover:text-[#640000] transition-colors duration-200">
+            <a href="/safety" className="text-gray-700 hover:text-[#640000] transition-colors duration-200">
               Safety
             </a>
             <a href="#apps" className="text-gray-700 hover:text-[#640000] transition-colors duration-200">

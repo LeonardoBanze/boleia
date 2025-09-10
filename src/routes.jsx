@@ -8,6 +8,7 @@ import SobreNos from './pages/About'
 import Servicos from './components/Service'
 import ServicosPage from './pages/Service'
 import BlogPage from './pages/Blog'
+import Safety from './pages/Safety'
 
 export default function AppRoutes() {
   return (
@@ -16,7 +17,7 @@ export default function AppRoutes() {
       <Route path="/contact" element={<Contactos />} />
       <Route path="/about" element={<SobreNos />} />
       <Route path="/service" element={<ServicosPage />} />
-      <Route path="/blog" element={<BlogPage />} />
+      <Route path="/safety" element={<Safety />} />
     </Routes>
   )
 }
