@@ -1,7 +1,7 @@
 import { Phone, Mail, MapPin, Facebook, Instagram, Linkedin } from 'react-feather';
 import { useState } from 'react';
 
-export default function Topbar() {
+export default function TopBar() {
   const [language, setLanguage] = useState('PT');
 
   return (
