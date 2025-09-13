@@ -1,5 +1,5 @@
 import CoreSafetyFeatures from "../../components/CoreSafetyFeatures";
-import Foooter from "../../components/Foooter";
+import Foooter from "../../components/foooter";
 import Navbar from "../../components/Navbar";
 import Topbar from "../../components/TopBar";
 import bannerImg from "../../assets/entrega.png"

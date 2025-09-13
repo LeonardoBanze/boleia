@@ -1,4 +1,4 @@
-import Foooter from "../../components/Foooter";
+import Foooter from "../../components/foooter";
 import Navbar from "../../components/Navbar";
 import OurSolutionsSectionPage from "../../components/OurSolutionsSectionpage";
 import Topbar from "../../components/TopBar";
