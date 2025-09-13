@@ -1,4 +1,4 @@
-import Footer from "../../components/Footer";
+import Foooter from "../../components/foooter";
 import Navbar from "../../components/Navbar";
 import Topbar from "../../components/TopBar";
 
@@ -78,7 +78,7 @@ export default function Contactos() {
           </form>
         </div>
       </section>
-<Footer />
+<Foooter />
       </div>
     );
   }

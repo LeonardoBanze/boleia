@@ -1,6 +1,6 @@
 import { Facebook, Linkedin, Twitter } from 'react-feather';
 
-export default function Footer() {
+export default function Foooter() {
   return (
     <footer className="bg-white border-t border-gray-200 pt-10">
 

@@ -1,5 +1,5 @@
 import CoreSafetyFeatures from "../../components/CoreSafetyFeatures";
-import Footer from "../../components/Footer";
+import Foooter from "../../components/Foooter";
 import Navbar from "../../components/Navbar";
 import Topbar from "../../components/TopBar";
 import bannerImg from "../../assets/entrega.png"
@@ -24,7 +24,7 @@ export default function Safety() {
      <CoreSafetyFeatures/>
     
  
-     <Footer />
+     <Foooter />
    </div>
 
   )

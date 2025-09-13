@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { TrendingUp, Check, User, Mail, Phone } from 'lucide-react';
 import Navbar from '../../components/Navbar';
 import TopBar from '../../components/TopBar';
-import Footer from '../../components/Footer';
+import Foooter from '../../components/foooter';
 
 export default function InvestmentApplication() {
   const [formData, setFormData] = useState({
@@ -338,7 +338,7 @@ export default function InvestmentApplication() {
         </div>
       </div>
 
-      <Footer/>
+      <Foooter/>
     </div>
   );
 }

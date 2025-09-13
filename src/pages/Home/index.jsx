@@ -3,7 +3,7 @@ import SessaoApp from "../../components/Appss";
 import PostsRecentes from "../../components/blog";
 import CTASection from "../../components/CTASection";
 import EmpoweringUrbanMobility from "../../components/EmpoweringUrbanMobility";
-import Footer from "../../components/Footer";
+import Foooter from "../../components/Foooter";
 import HeroSlider from "../../components/Heroslider";
 import SejaMembro from "../../components/Membro";
 import Navbar from "../../components/Navbar";
@@ -27,7 +27,7 @@ export default function Home() {
      <OurSolutionsSection/> 
      <CTASection/>
  
-     <Footer />
+     <Foooter />
    </div>
 
   )

@@ -1,4 +1,4 @@
-import Footer from "../../components/Footer";
+import Foooter from "../../components/Foooter";
 import Navbar from "../../components/Navbar";
 import OurSolutionsSectionPage from "../../components/OurSolutionsSectionpage";
 import Topbar from "../../components/TopBar";
@@ -110,7 +110,7 @@ export default function ServicosPage() {
       </section>
 
 
-        <Footer />
+        <Foooter />
                   </div>
     );
   }

@@ -1,12 +1,12 @@
-import Footer from "../../components/Footer";
+
 import ImpactNumbersSection from "../../components/ImpactNumbersSection";
 import { ArrowRight } from 'lucide-react';
 import Navbar from "../../components/Navbar";
-import OurJourneySection from "../../components/OurJourneySection";
+
 import Topbar from "../../components/TopBar";
-import bannerImg from "../../assets/entrega.png"
 import { Heart, Zap, Globe, Award, Target, Eye, Lightbulb } from 'lucide-react';
 import { useNavigate } from "react-router-dom";
+import Foooter from "../../components/foooter";
 
 export default function SobreNos() {
    const navigate = useNavigate();
@@ -283,7 +283,7 @@ const values = [
         </div>
       </div>
     </div>
-      <Footer />
+      <Foooter />
             </div>
     );
   }
