@@ -9,6 +9,8 @@ import Servicos from './components/Service'
 import ServicosPage from './pages/Service'
 import BlogPage from './pages/Blog'
 import Safety from './pages/Safety'
+import Prices from './pages/Prices/Prices'
+import InvestmentApplication from './pages/Invest'
 
 export default function AppRoutes() {
   return (
@@ -16,8 +18,10 @@ export default function AppRoutes() {
       <Route path="/" element={<Home />} />
       <Route path="/contact" element={<Contactos />} />
       <Route path="/about" element={<SobreNos />} />
-      <Route path="/service" element={<ServicosPage />} />
+      <Route path="/solutions" element={<ServicosPage />} />
       <Route path="/safety" element={<Safety />} />
+      <Route path="/prices" element={<Prices />} />
+      <Route path="/invest" element={<InvestmentApplication />} />
     </Routes>
   )
 }

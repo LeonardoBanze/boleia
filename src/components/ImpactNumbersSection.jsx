@@ -82,25 +82,25 @@ const ImpactNumbersSection = () => {
     },
     {
       value: '50+',
-      title: 'Cities',
+      title: 'Rented cars',
       subtitle: 'Connected through our platform',
       delay: 400
     },
     {
       value: '10000+',
-      title: 'Drivers & Couriers',
+      title: 'Deliveries',
       subtitle: 'Earning sustainable income',
       delay: 600
     },
     {
       value: '98%',
-      title: 'User Satisfaction',
+      title: 'Content Shared',
       subtitle: 'Based on user feedback',
       delay: 800
     },
     {
       value: '1000000+',
-      title: 'Deliveries',
+      title: 'Generated revenue',
       subtitle: 'Packages delivered safely',
       delay: 1000
     }

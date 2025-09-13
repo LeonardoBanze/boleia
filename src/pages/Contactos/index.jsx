@@ -1,6 +1,6 @@
-import Footer from "../../components/footer";
+import Footer from "../../components/Footer";
 import Navbar from "../../components/Navbar";
-import Topbar from "../../components/Topbar";
+import Topbar from "../../components/TopBar";
 
 export default function Contactos() {
     return (
@@ -82,4 +82,3 @@ export default function Contactos() {
       </div>
     );
   }
-  

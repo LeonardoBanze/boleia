@@ -36,19 +36,19 @@ const OurSolutionsSection = () => {
     {
       imageSrc: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
       imageAlt: "Motorcycle rider at night with city lights",
-      title: "Ride Services",
+      title: "Yora",
       description: "From quick city rides to long-distance travel, we connect you with reliable drivers."
     },
     {
       imageSrc: "https://images.unsplash.com/photo-1473968512647-3e447244af8f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
       imageAlt: "Drone delivery service in urban setting",
-      title: "Delivery Solutions",
+      title: "BCT",
       description: "Fast, secure delivery for everything from documents to groceries."
     },
     {
       imageSrc: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80",
       imageAlt: "People socializing in community setting with lights",
-      title: "Community Hub",
+      title: "BCTFlex",
       description: "Join a vibrant community of users sharing experiences and opportunities."
     }
   ];

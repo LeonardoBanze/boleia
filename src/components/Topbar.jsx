@@ -5,7 +5,7 @@ export default function Topbar() {
   const [language, setLanguage] = useState('PT');
 
   return (
-    <div className="bg-[#640000] text-white text-sm">
+    <div className="bg-[#640000] text-white text-sm hidden md:block">
       <div className="container mx-auto px-6 py-2 flex flex-wrap justify-between items-center">
         {/* Contato */}
         <div className="flex flex-wrap justify-center gap-6 items-center mr-12">

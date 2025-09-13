@@ -5,7 +5,7 @@ const CTASection = () => {
   return (
     <div className="bg-gray-50 py-20 px-4">
       <div className="max-w-10xl mx-auto">
-        <div className="bg-[#8b1538] rounded-3xl p-12 md:p-16 shadow-2xl border border-[#a01d42] text-center">
+        <div className="bg-[#640000] rounded-3xl p-12 md:p-16 shadow-2xl border border-[#640000] text-center">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-8 leading-tight">
             Ready to Transform Your Journey?
           </h2>

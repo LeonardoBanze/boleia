@@ -1,7 +1,7 @@
 import CoreSafetyFeatures from "../../components/CoreSafetyFeatures";
-import Footer from "../../components/footer";
+import Footer from "../../components/Footer";
 import Navbar from "../../components/Navbar";
-import Topbar from "../../components/Topbar";
+import Topbar from "../../components/TopBar";
 import bannerImg from "../../assets/entrega.png"
 
 

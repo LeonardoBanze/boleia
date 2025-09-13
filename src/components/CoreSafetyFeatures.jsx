@@ -95,7 +95,7 @@ export default function CoreSafetyFeatures() {
                 <ul className="space-y-3">
                   {feature.items.map((item, itemIndex) => (
                     <li key={itemIndex} className="flex items-center text-gray-600">
-                      <div className="w-2 h-2 bg-[#640000] rounded-full mr-3 flex-shrink-0"></div>
+                      <div className="w-2 h-2 bg-primary rounded-full mr-3 flex-shrink-0"></div>
                       <span className="text-sm">{item}</span>
                     </li>
                   ))}
@@ -127,7 +127,7 @@ export default function CoreSafetyFeatures() {
     </div>
     <div className="flex flex-col items-center text-center bg-white border border-gray-200 rounded-xl p-6 shadow-sm hover:shadow-md transition">
       <div className="bg-red-100 rounded-full p-4 mb-4">
-        <Lock className="w-8 h-8 text-primary" />
+        <Lock className="w-8 h-8 text-red-600" />
       </div>
       <h3 className="font-bold text-gray-900 mb-2">Secure Payments</h3>
       <p className="text-gray-600 text-sm">

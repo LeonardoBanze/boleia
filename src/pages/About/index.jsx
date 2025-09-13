@@ -1,12 +1,15 @@
-import Footer from "../../components/footer";
+import Footer from "../../components/Footer";
 import ImpactNumbersSection from "../../components/ImpactNumbersSection";
+import { ArrowRight } from 'lucide-react';
 import Navbar from "../../components/Navbar";
 import OurJourneySection from "../../components/OurJourneySection";
-import Topbar from "../../components/Topbar";
+import Topbar from "../../components/TopBar";
 import bannerImg from "../../assets/entrega.png"
 import { Heart, Zap, Globe, Award, Target, Eye, Lightbulb } from 'lucide-react';
+import { useNavigate } from "react-router-dom";
 
 export default function SobreNos() {
+   const navigate = useNavigate();
   const InfoCard = ({ icon: Icon, title, description, emoji }) => {
   return (
     <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 group">
@@ -30,19 +33,19 @@ export default function SobreNos() {
  const infoCards = [
     {
       icon: Target,
-      emoji: "🎯",
+      emoji: "",
       title: "Our Mission",
       description: "To democratize urban mobility across Africa by creating inclusive, sustainable, and technology-driven transportation solutions that empower communities and foster economic growth."
     },
     {
       icon: Eye,
-      emoji: "👁",
+      emoji: "",
       title: "Our Vision", 
       description: "To become Africa's leading mobility ecosystem, connecting every city and community through innovative technology, while preserving our cultural values and promoting sustainable development."
     },
     {
       icon: Lightbulb,
-      emoji: "💡",
+      emoji: "",
       title: "Our Impact",
       description: "Creating economic opportunities, reducing transportation barriers, and building stronger communities through technology that understands and serves African needs."
     }
@@ -94,20 +97,37 @@ const values = [
       <section className="font-poppins">
   
         {/* Banner */}
-        <div className="relative h-64 md:h-80 w-full">
-          <img
-            src={bannerImg}
-            alt="Banner Sobre Nós"
-            className="w-full h-full object-cover"
-          />
-          <div className="absolute inset-0  bg-opacity-50 flex items-center justify-center">
-            
-            
-            <h1 className="text-4xl md:text-5xl font-bold text-[#640000] mb-6">
-            About <span className="text-gray-900">BoleiaChain</span>
-          </h1>
+        <div className="bg-black py-16 px-4 border-b border-gray-900">
+        <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-12">
+          {/* Texto à esquerda */}
+          <div className="flex-1">
+            <h1 className="text-5xl md:text-6xl font-bold text-white mb-6">
+              About <span className="text-red-600">BoleiaChain</span>
+            </h1>
+            <p className="text-gray-200 text-lg mb-10 max-w-2xl">
+              We're more than just a mobility platform. We're a movement dedicated to transforming how people move, connect, and thrive in African cities. Built by Africans, for Africa.
+            </p>
+            <div className="flex gap-12 mb-2">
+              <div>
+                <div className="text-4xl font-bold text-red-600">4+</div>
+                <div className="text-gray-400 text-base">Years of Innovation</div>
+              </div>
+              <div>
+                <div className="text-4xl font-bold text-red-600">15+</div>
+                <div className="text-gray-400 text-base">Countries Served</div>
+              </div>
+            </div>
+          </div>
+          {/* Imagem à direita */}
+          <div className="flex-1 flex justify-center">
+            <img
+              src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80"
+              alt="About BoleiaChain"
+              className="rounded-3xl object-cover w-full max-w-md shadow-2xl border-4 border-[#640000]"
+            />
           </div>
         </div>
+      </div>
 
           <div className="bg-gray-50 py-20 px-4">
       <div className="max-w-7xl mx-auto">
@@ -234,8 +254,35 @@ const values = [
     </div>
   
       </section>
-      <OurJourneySection/>
+      {/* <OurJourneySection/> */}
       <ImpactNumbersSection/>
+
+         <div className="bg-gray-50 py-20 px-4">
+      <div className="max-w-10xl mx-auto">
+        <div className="bg-[#640000] rounded-3xl p-12 md:p-16 shadow-2xl border border-[#640000] text-center">
+          <h2 className="text-4xl md:text-5xl font-bold text-white mb-8 leading-tight">
+           Investor Registration
+          </h2>
+          
+          <p className="text-gray-200 text-lg md:text-xl mb-12 leading-relaxed max-w-3xl mx-auto">
+        Join us in revolutionizing African mobility and commerce. Invest in the future of transportation.
+          </p>
+          
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+            <button 
+              onClick={() => navigate("/invest")}
+            className="bg-white text-[#640000] px-8 py-4 rounded-xl font-semibold text-lg hover:bg-gray-100 transition-colors duration-300 flex items-center group">
+              Invest Now
+              <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform duration-200" />
+            </button>
+            
+            {/* <button className="border-2 border-white text-white px-8 py-4 rounded-xl font-semibold text-lg hover:bg-white hover:text-[#640000] transition-all duration-300">
+              Learn About Us
+            </button> */}
+          </div>
+        </div>
+      </div>
+    </div>
       <Footer />
             </div>
     );
