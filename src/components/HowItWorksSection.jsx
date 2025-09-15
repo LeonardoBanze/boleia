@@ -35,7 +35,7 @@ export default function HowItWorksSection() {
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            How It Works
+            How Ride Service Works
           </h2>
           <p className="text-gray-600 text-lg max-w-3xl mx-auto leading-relaxed">
             Getting started with BoleiaChain is simple. Follow these four easy steps to access our services.
