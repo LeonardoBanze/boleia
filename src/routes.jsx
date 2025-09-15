@@ -9,8 +9,9 @@ import Servicos from './components/Service'
 import ServicosPage from './pages/Service'
 import BlogPage from './pages/Blog'
 import Safety from './pages/Safety'
-import Prices from './pages/Prices/Prices'
+
 import InvestmentApplication from './pages/Invest'
+import Prices from './pages/Prices'
 
 export default function AppRoutes() {
   return (
