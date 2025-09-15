@@ -12,6 +12,7 @@ import Safety from './pages/Safety'
 
 import InvestmentApplication from './pages/Invest'
 import Prices from './pages/Prices'
+import Yora from './pages/Yora'
 
 export default function AppRoutes() {
   return (
@@ -19,10 +20,11 @@ export default function AppRoutes() {
       <Route path="/" element={<Home />} />
       <Route path="/contact" element={<Contactos />} />
       <Route path="/about" element={<SobreNos />} />
-      <Route path="/solutions" element={<ServicosPage />} />
+      <Route path="/services" element={<ServicosPage />} />
       <Route path="/safety" element={<Safety />} />
       <Route path="/prices" element={<Prices />} />
       <Route path="/invest" element={<InvestmentApplication />} />
+      <Route path="/yora" element={<Yora />} />
     </Routes>
   )
 }

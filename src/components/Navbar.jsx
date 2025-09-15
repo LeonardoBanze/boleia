@@ -52,7 +52,7 @@ export default function Navbar() {
                 className="px-4 py-2 text-gray-700 hover:text-[#640000] transition-all duration-200 flex items-center space-x-1 rounded-lg hover:bg-gray-50 font-medium"
                 onClick={() => setIsSolutionsOpen(!isSolutionsOpen)}
               >
-                 <NavLink href="/solutions">Solutions</NavLink>
+                 <NavLink href="/solutions">Services</NavLink>
                
                 <svg 
                   className={`w-4 h-4 transition-transform duration-200 ${isSolutionsOpen ? 'rotate-180' : ''}`} 
@@ -71,7 +71,7 @@ export default function Navbar() {
                   : 'opacity-0 transform scale-95 -translate-y-2 pointer-events-none'
               }`}>
                 <div className="py-2">
-                  <DropdownLink href="/yora-app" icon="📱">Yora App</DropdownLink>
+                  <DropdownLink href="/yora" icon="📱">Yora App</DropdownLink>
                   <DropdownLink href="/bct" icon="⚡">BCT</DropdownLink>
                   <DropdownLink href="/bctflex" icon="🔗">BCTFlex</DropdownLink>
                 </div>
