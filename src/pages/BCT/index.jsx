@@ -98,7 +98,7 @@ export default function BCTTokenPage() {
             <img
               src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80"
               alt="About BoleiaChain"
-              className="rounded-3xl object-cover w-full max-w-md shadow-2xl border-4 border-[#640000]"
+              className="rounded-3xl object-cover w-full max-w-md shadow-2xl "
             />
           </div>
         </div>
