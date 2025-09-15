@@ -13,6 +13,7 @@ import Safety from './pages/Safety'
 import InvestmentApplication from './pages/Invest'
 import Prices from './pages/Prices'
 import Yora from './pages/Yora'
+import BCTTokenPage from './pages/BCT'
 
 export default function AppRoutes() {
   return (
@@ -25,6 +26,7 @@ export default function AppRoutes() {
       <Route path="/prices" element={<Prices />} />
       <Route path="/invest" element={<InvestmentApplication />} />
       <Route path="/yora" element={<Yora />} />
+      <Route path="/bct" element={<BCTTokenPage />} />
     </Routes>
   )
 }
