@@ -56,7 +56,7 @@ export default function OurSolutionsSection() {
         {/* Header */}
         <div className="text-center mb-16">
           <h1 className="text-4xl md:text-5xl font-bold text-[#640000] mb-6">
-            Our <span className="text-gray-900">Solutions</span>
+            YORA <span className="text-gray-900">Your Ride Anywhere</span>
           </h1>
           <p className="text-gray-700 text-lg max-w-3xl mx-auto mb-4">
             Comprehensive mobility and delivery solutions designed specifically
