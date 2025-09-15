@@ -1,11 +1,11 @@
 import Foooter from "../../components/foooter";
 import Navbar from "../../components/Navbar";
-import TopBar from "../../components/TopBar";
+import Topbar from "../../components/Topbar";
 
 export default function Contactos() {
     return (
      <div>
-        <TopBar />
+        <Topbar />
         <Navbar />
         <div className="relative h-80 w-full">
         <img

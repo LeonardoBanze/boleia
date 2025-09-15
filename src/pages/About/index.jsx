@@ -3,7 +3,7 @@ import ImpactNumbersSection from "../../components/ImpactNumbersSection";
 import { ArrowRight } from 'lucide-react';
 import Navbar from "../../components/Navbar";
 
-import TopBar from "../../components/TopBar";
+import Topbar from "../../components/Topbar";
 import { Heart, Zap, Globe, Award, Target, Eye, Lightbulb } from 'lucide-react';
 import { useNavigate } from "react-router-dom";
 import Foooter from "../../components/foooter";
@@ -92,7 +92,7 @@ const values = [
   ];
     return (
            <div>
-                <TopBar />
+                <Topbar />
                 <Navbar />
       <section className="font-poppins">
   

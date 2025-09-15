@@ -1,7 +1,7 @@
 import CoreSafetyFeatures from "../../components/CoreSafetyFeatures";
 import Foooter from "../../components/foooter";
 import Navbar from "../../components/Navbar";
-import TopBar from "../../components/TopBar";
+import Topbar from "../../components/Topbar";
 import bannerImg from "../../assets/entrega.png"
 
 
@@ -9,7 +9,7 @@ import bannerImg from "../../assets/entrega.png"
 export default function Safety() {
   return (
    <div>
-    <TopBar />
+    <Topbar />
      <Navbar />
           <div className="relative h-64 md:h-80 w-full">
           <img

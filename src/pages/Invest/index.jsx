@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { TrendingUp, Check, User, Mail, Phone } from 'lucide-react';
 import Navbar from '../../components/Navbar';
-import TopBar from '../../components/TopBar';
+import Topbar from '../../components/Topbar';
 import Foooter from '../../components/foooter';
 
 export default function InvestmentApplication() {
@@ -59,7 +59,7 @@ export default function InvestmentApplication() {
   return (
 
     <div className="bg-gray-50 min-h-screen">
-      <TopBar/>
+      <Topbar/>
       <Navbar/>
       {/* Header */}
       <div className="w-full bg-gradient-to-b from-[#320000] via-[#640000] to-[#640000] pb-12 pt-8 px-4">

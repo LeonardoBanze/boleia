@@ -1,12 +1,12 @@
 import Foooter from "../../components/foooter";
 import Navbar from "../../components/Navbar";
 import OurSolutionsSectionPage from "../../components/OurSolutionsSectionpage";
-import TopBar from "../../components/TopBar";
+import Topbar from "../../components/Topbar";
 
 export default function ServicosPage() {
     return (
           <div>
-                        <TopBar />
+                        <Topbar />
                         <Navbar />
       <section className="font-poppins">
   
