@@ -366,7 +366,7 @@ export default function OurSolutionsSection() {
 
 
         {/* CTA final */}
-        <div className="text-center mt-16">
+        {/* <div className="text-center mt-16">
           <div className="bg-gray-200 rounded-2xl p-8 border border-gray-300 shadow">
             <h3 className="text-2xl font-bold text-[#640000] mb-4">
               Ready to get started?
@@ -384,7 +384,7 @@ export default function OurSolutionsSection() {
               </button>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
