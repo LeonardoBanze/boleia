@@ -48,18 +48,18 @@ export default function Foooter() {
         <div>
           <h3 className="font-bold text-[#640000] mb-4">Company</h3>
           <ul className="space-y-2 text-gray-600">
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">FAQs</a></li>
-            <li><a href="#">Contact Us</a></li>
-            <li><a href="#">Terms & Conditions</a></li>
-            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/contact">Contact Us</a></li>
+            <li><a href="/services">Services</a></li>
+            {/* <li><a href="#">Privacy Policy</a></li> */}
           </ul>
         </div>
 
         <div>
           <h3 className="font-bold text-[#640000] mb-4">Features</h3>
           <ul className="space-y-2 text-gray-600">
-            <li><a href="#">Copyright Notice</a></li>
+            <li><a href="/yora">Yora</a></li>
             <li><a href="#">Mailing List</a></li>
             <li><a href="#">Social Media Links</a></li>
             <li><a href="#">Help Center</a></li>
@@ -69,9 +69,9 @@ export default function Foooter() {
         <div>
           <h3 className="font-bold text-[#640000] mb-4">Products</h3>
           <ul className="space-y-2 text-gray-600">
-            <li><a href="#">Sitemap</a></li>
-            <li><a href="#">New Releases</a></li>
-            <li><a href="#">Best Sellers</a></li>
+            <li><a href="/yora">Yora</a></li>
+            <li><a href="/bct">BCTFlex</a></li>
+            <li><a href="#">BCT</a></li>
             <li><a href="#">Newsletter</a></li>
           </ul>
         </div>

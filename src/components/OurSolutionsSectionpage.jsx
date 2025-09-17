@@ -9,14 +9,14 @@ export default function OurSolutionsSection() {
 
   // 🚖 Ride Services
   const rideSolutions = [
-    { id: "lets-go", title: "Lets Go", subtitle: "Your instant ride, anytime, anywhere.", description: "Lets Go is our flagship on-demand ride service, connecting you with nearby drivers for quick and efficient travel across the city. Perfect for spontaneous trips and urgent commutes.", howItWorks: [ "Open the BoleiaChain app", "Enter your destination", "Confirm your pickup location", "Tap 'Request Ride'", "A driver will be dispatched to you shortly" ], image: "https://static.wixstatic.com/media/330c98_27a9c1c3e0594d029e1f8b1800e38158~mv2.png/v1/fill/w_273,h_153,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/330c98_27a9c1c3e0594d029e1f8b1800e38158~mv2.png", }, { id: "request", title: "Request", subtitle: "Tailored rides, just for you.", description: "The Request service allows users to specify their ride preferences, such as vehicle type, accessibility needs, or even a preferred driver, ensuring a personalized and comfortable journey.", howItWorks: [ "Select 'Request' in the app", "Choose your desired vehicle type or special requirements", "Set your pickup and drop-off", "Confirm your request and wait for a matching driver" ], image: "https://static.wixstatic.com/media/330c98_e7cdfd237dfb4ac788d486b53a9255cf~mv2.png/v1/fill/w_273,h_153,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/330c98_e7cdfd237dfb4ac788d486b53a9255cf~mv2.png", }, { id: "offer", title: "Offer", subtitle: "Share your ride, share the cost.", description: "For drivers, the Offer service allows you to post your route and offer available seats to passengers heading in the same direction. It's a great way to reduce travel costs and contribute to a greener environment.", howItWorks: [ "As a driver, select 'Offer Ride'", "Enter your route and departure time", "Specify available seats and price per seat", "Passengers can then book a spot in your vehicle" ], image: "https://static.wixstatic.com/media/330c98_4d6f18abd09d43c99a2db8e881d4f7f2~mv2.png/v1/fill/w_273,h_153,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/330c98_4d6f18abd09d43c99a2db8e881d4f7f2~mv2.png" }, { id: "private", title: "Private", subtitle: "Exclusive comfort, premium travel.", description: "Experience the ultimate in comfort and privacy with BoleiaChain's Private service. Ideal for business travel, special occasions, or when you simply desire an undisturbed journey in a high-end vehicle.", howItWorks: [ "Choose 'Private' from the ride options", "Select your preferred premium vehicle class.", "Enter your destination and confirm pickup", "Enjoy a luxurious and private ride." ], image: "https://static.wixstatic.com/media/330c98_4d6f18abd09d43c99a2db8e881d4f7f2~mv2.png/v1/fill/w_273,h_153,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/330c98_4d6f18abd09d43c99a2db8e881d4f7f2~mv2.png" }, { id: "regular", title: "Regular", subtitle: "Your daily commute, made easy.", description: "Regular is BoleiaChain's standard, reliable ride service designed for everyday commuting. Affordable and efficient, it's the perfect choice for getting to work, school, or running errands.", howItWorks: [ "Open the app and select 'Regular'", "Input your pickup and destination", "Confirm your ride details.", "A standard vehicle will arrive to take you to your destination." ], image: "https://static.wixstatic.com/media/330c98_4d6f18abd09d43c99a2db8e881d4f7f2~mv2.png/v1/fill/w_273,h_153,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/330c98_4d6f18abd09d43c99a2db8e881d4f7f2~mv2.png" },
+    { id: "lets-go", title: "Lets Go", subtitle: "Your instant ride, anytime, anywhere.", description: "Lets Go is our flagship on-demand ride service, connecting you with nearby drivers for quick and efficient travel across the city. Perfect for spontaneous trips and urgent commutes.", howItWorks: [ "Open the BoleiaChain app", "Enter your destination", "Confirm your pickup location", "Tap 'Request Ride'", "A driver will be dispatched to you shortly" ], image: "https://static.wixstatic.com/media/330c98_27a9c1c3e0594d029e1f8b1800e38158~mv2.png/v1/fill/w_273,h_153,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/330c98_27a9c1c3e0594d029e1f8b1800e38158~mv2.png", }, { id: "order", title: "Order Delivey", subtitle: "Tailored rides, just for you.", description: "The Request service allows users to specify their ride preferences, such as vehicle type, accessibility needs, or even a preferred driver, ensuring a personalized and comfortable journey.", howItWorks: [ "Select 'Request' in the app", "Choose your desired vehicle type or special requirements", "Set your pickup and drop-off", "Confirm your request and wait for a matching driver" ], image: "https://static.wixstatic.com/media/330c98_e7cdfd237dfb4ac788d486b53a9255cf~mv2.png/v1/fill/w_273,h_153,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/330c98_e7cdfd237dfb4ac788d486b53a9255cf~mv2.png", }, { id: "shared", title: "Shared", subtitle: "Share your ride, share the cost.", description: "For drivers, the Offer service allows you to post your route and offer available seats to passengers heading in the same direction. It's a great way to reduce travel costs and contribute to a greener environment.", howItWorks: [ "As a driver, select 'Offer Ride'", "Enter your route and departure time", "Specify available seats and price per seat", "Passengers can then book a spot in your vehicle" ], image: "https://static.wixstatic.com/media/330c98_4d6f18abd09d43c99a2db8e881d4f7f2~mv2.png/v1/fill/w_273,h_153,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/330c98_4d6f18abd09d43c99a2db8e881d4f7f2~mv2.png" }, { id: "private", title: "Private", subtitle: "Exclusive comfort, premium travel.", description: "Experience the ultimate in comfort and privacy with BoleiaChain's Private service. Ideal for business travel, special occasions, or when you simply desire an undisturbed journey in a high-end vehicle.", howItWorks: [ "Choose 'Private' from the ride options", "Select your preferred premium vehicle class.", "Enter your destination and confirm pickup", "Enjoy a luxurious and private ride." ], image: "https://static.wixstatic.com/media/330c98_4d6f18abd09d43c99a2db8e881d4f7f2~mv2.png/v1/fill/w_273,h_153,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/330c98_4d6f18abd09d43c99a2db8e881d4f7f2~mv2.png" }, { id: "regular", title: "Regular", subtitle: "Your daily commute, made easy.", description: "Regular is BoleiaChain's standard, reliable ride service designed for everyday commuting. Affordable and efficient, it's the perfect choice for getting to work, school, or running errands.", howItWorks: [ "Open the app and select 'Regular'", "Input your pickup and destination", "Confirm your ride details.", "A standard vehicle will arrive to take you to your destination." ], image: "https://static.wixstatic.com/media/330c98_4d6f18abd09d43c99a2db8e881d4f7f2~mv2.png/v1/fill/w_273,h_153,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/330c98_4d6f18abd09d43c99a2db8e881d4f7f2~mv2.png" },
   ];
 
   // 📦 Delivery Services
   const deliverySolutions = [
     {
       id: "pick-go",
-      title: "Pick and Go",
+      title: "Via Informs Feed",
       subtitle: "Swift pickups, instant deliveries.",
       description:
         "Pick and Go is BoleiaChain's rapid delivery service for small to medium-sized parcels. Perfect for urgent documents, forgotten items, or quick errands, ensuring your package reaches its destination fast.",
@@ -31,7 +31,37 @@ export default function OurSolutionsSection() {
     },
     {
       id: "delivery",
-      title: "Delivery",
+      title: "Via Inform Hobby",
+      subtitle: "Reliable delivery for all your needs.",
+      description:
+        "BoleiaChain's comprehensive Delivery service handles a wide range of items, from food and groceries to larger packages. Our network of couriers ensures safe and timely delivery across the region.",
+      howItWorks: [
+        "Choose 'Delivery' in the app",
+        "Specify item details and size",
+        "Enter sender and recipient addresses",
+        "Track your delivery in real-time until it reaches its destination",
+      ],
+      image:
+        "https://static.wixstatic.com/media/330c98_12bc5774b9bf4414bf4d857173c042a2~mv2.png/v1/fill/w_387,h_218,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/330c98_12bc5774b9bf4414bf4d857173c042a2~mv2.png",
+    },
+    {
+      id: "delivery",
+      title: "Bolada na via",
+      subtitle: "Reliable delivery for all your needs.",
+      description:
+        "BoleiaChain's comprehensive Delivery service handles a wide range of items, from food and groceries to larger packages. Our network of couriers ensures safe and timely delivery across the region.",
+      howItWorks: [
+        "Choose 'Delivery' in the app",
+        "Specify item details and size",
+        "Enter sender and recipient addresses",
+        "Track your delivery in real-time until it reaches its destination",
+      ],
+      image:
+        "https://static.wixstatic.com/media/330c98_12bc5774b9bf4414bf4d857173c042a2~mv2.png/v1/fill/w_387,h_218,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/330c98_12bc5774b9bf4414bf4d857173c042a2~mv2.png",
+    },
+    {
+      id: "delivery",
+      title: "Chat",
       subtitle: "Reliable delivery for all your needs.",
       description:
         "BoleiaChain's comprehensive Delivery service handles a wide range of items, from food and groceries to larger packages. Our network of couriers ensures safe and timely delivery across the region.",
@@ -88,7 +118,7 @@ export default function OurSolutionsSection() {
               }`}
             >
               <Gift className="w-4 h-4 mr-2" />
-              Delivery Services
+              Interactions
             </button>
           </div>
         </div>
