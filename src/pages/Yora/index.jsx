@@ -1,3 +1,4 @@
+import SessaoApp from "../../components/Appss";
 import Foooter from "../../components/foooter";
 import SejaMembro from "../../components/Membro";
 import Navbar from "../../components/Navbar";
@@ -48,6 +49,7 @@ export default function Yora() {
 
         <OurSolutionsSectionPage/>
         <SejaMembro />
+        <SessaoApp/>
 
   
       </section>

@@ -6,18 +6,11 @@ const apps = [
     nome: "YORA",
     descricao:
       "You can now use Lottie widget with a custom count loop. Turn your boring static elements into beautiful animated elements with few clicks.",
-    imagem: {appImg}, // Usando sua imagem dos assets
+    imagem: appImg, // Usando sua imagem dos assets
     playstore: "#",
     applestore: "#",
   },
-  {
-    nome: "Prestashop", 
-    descricao:
-      "Para motoristas gerenciarem viagens, localizações, pagamentos e avaliações em tempo real.",
-    imagem: "/assets/prestashop-app.png",
-    playstore: "#",
-    applestore: "#",
-  },
+
 ];
 
 export default function SessaoApp() {
