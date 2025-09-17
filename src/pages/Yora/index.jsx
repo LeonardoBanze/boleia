@@ -1,4 +1,5 @@
 import Foooter from "../../components/foooter";
+import SejaMembro from "../../components/Membro";
 import Navbar from "../../components/Navbar";
 import OurSolutionsSectionPage from "../../components/OurSolutionsSectionpage";
 import Topbar from "../../components/Topbar";
@@ -46,6 +47,8 @@ export default function Yora() {
 
 
         <OurSolutionsSectionPage/>
+        <SejaMembro />
+
   
       </section>
 
