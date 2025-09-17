@@ -14,6 +14,9 @@ import InvestmentApplication from './pages/Invest'
 import Prices from './pages/Prices'
 import Yora from './pages/Yora'
 import BCTTokenPage from './pages/BCT'
+import RidePhases from './pages/Ridephases'
+import ValueProposition from './pages/Value'
+import Community from './pages/Community'
 
 export default function AppRoutes() {
   return (
@@ -27,6 +30,9 @@ export default function AppRoutes() {
       <Route path="/invest" element={<InvestmentApplication />} />
       <Route path="/yora" element={<Yora />} />
       <Route path="/bct" element={<BCTTokenPage />} />
+      <Route path="/ride" element={<RidePhases />} />
+      <Route path="/value" element={<ValueProposition />} />
+      <Route path="/community" element={<Community />} />
     </Routes>
   )
 }

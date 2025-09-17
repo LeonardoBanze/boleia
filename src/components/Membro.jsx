@@ -1,5 +1,5 @@
 import { useState } from "react";
-import menbroImg from "../../src/assets/membro.png"
+import menbroImg from "../../src/assets/membro.png";
 
 const membros = [
   {
@@ -80,22 +80,17 @@ export default function SejaMembro() {
         </p>
       </div>
 
-      <div className="flex flex-col lg:flex-row items-start ">
+      <div className="flex flex-col lg:flex-row items-start gap-12">
         {/* Imagem dos membros */}
-        <div className="w-full lg:w-1/2 relative">
-          <div className="relative">
-            {/* Imagem do círculo de membros */}
-            <div className="w-full max-w-md mx-auto mb-8">
-              <img 
-                src={menbroImg} 
-                alt="Círculo de membros" 
-                className="w-full h-auto"
-              />
-            </div>
+        <div className="w-full lg:w-1/2 flex justify-center items-center">
+          <div className="w-full max-w-xs md:max-w-sm lg:max-w-md xl:max-w-lg">
+            <img
+              src={menbroImg}
+              alt="Círculo de membros"
+              className="w-full h-auto object-cover rounded-2xl shadow-lg"
+              style={{ minHeight: "220px", maxHeight: "340px" }}
+            />
           </div>
-
-          {/* Texto descritivo adicional */}
-       
         </div>
 
         {/* Tabs e conteúdo */}
@@ -118,11 +113,9 @@ export default function SejaMembro() {
             <h3 className="text-2xl font-bold text-gray-900 mb-3">
               Plano {membros[tab].nome}
             </h3>
-            
             <p className="text-gray-700 mb-6 leading-relaxed">
               {membros[tab].descricao}
             </p>
-
             {/* Lista de benefícios */}
             <div className="space-y-3">
               <h4 className="font-semibold text-gray-900 text-lg">Benefícios inclusos:</h4>
@@ -135,7 +128,6 @@ export default function SejaMembro() {
                 ))}
               </div>
             </div>
-
             {/* Botão de ação */}
             <div className="mt-8">
               <button className={`px-8 py-3 rounded-lg font-semibold transition-all duration-200 ${getButtonStyles(membros[tab], tab).replace('border-', 'border-transparent ')}`}>
