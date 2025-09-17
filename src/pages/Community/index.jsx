@@ -1,6 +1,7 @@
 import { Users, MessageSquare, HeartHandshake, ShieldCheck, Bell, Group, Store, Fuel, Building2, Wrench, Briefcase, UserCheck, Send } from "lucide-react";
 import Topbar from "../../components/Topbar";
 import Navbar from "../../components/Navbar";
+import Foooter from "../../components/foooter";
 
 const rolesAndPartners = [
   {
@@ -229,6 +230,7 @@ export default function Community() {
           </div>
         </div>
       </section>
+      <Foooter  />
     </div>
   );
 }
